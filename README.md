@@ -76,18 +76,15 @@ print(square(7))  # 49
 # Exercícios
 1. Defina uma função isElderly :: Int -> Bool que receba uma idade e resulte verdadeiro caso a idade seja maior que 65 anos.
 ![exercício 1](gif1.gif)
-`isElderly` recebe uma idade (Int) e verifica se ela é maior que 65.
-Retorna `True` se a pessoa for considerada idosa e `False` caso contrário.
+`isElderly` recebe uma idade (Int) e verifica se ela é maior que 65. Retorna `True` se a pessoa for considerada idosa e `False` caso contrário.
 
 3. Agora use a função elem para implementar uma função isVowel2 :: Char -> Bool que verifique se um caracter é uma vogal, tanto maiúscula como minúscula.
 ![exercício 2](gif2.gif)
-`isVowel2` recebe um caractere (Char) e verifica se ele está dentro da lista `"aeiouAEIOU"`.
-Retorna `True` se for uma vogal (maiúscula ou minúscula) e `False` se não for.
+`isVowel2` recebe um caractere (Char) e verifica se ele está dentro da lista `"aeiouAEIOU"`. Retorna `True` se for uma vogal (maiúscula ou minúscula) e `False` se não for.
 
 4. Crie uma função countSpaces que receba uma string e retorne o número de espaços nela contidos. Dica 1: você vai precisar de uma função que identifica espaços. Dica 2: aplique funções consecutivamente, isto é, use o resultado de uma função como argumento para outra.
 ![exercício 3](gif3.gif)
-`acharSpaces` verifica se um caractere é um espaço (`' '`).
-`countSpaces` usa `filter` para pegar apenas os espaços da string e `length` para contar quantos existem.
+`acharSpaces` verifica se um caractere é um espaço (`' '`). `countSpaces` usa `filter` para pegar apenas os espaços da string e `length` para contar quantos existem.
 
 ### Referências
 https://www.alura.com.br/artigos/high-order-functions?srsltid=AfmBOoryRshW07cbG8-opY8qVkyPPeIMwXUEllGcuULyh1EGIhjllLRH
