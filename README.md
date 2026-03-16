@@ -91,6 +91,9 @@ Retorna `True` se for uma vogal (maiúscula ou minúscula) e `False` se não for
 
 ### Referências
 https://www.alura.com.br/artigos/high-order-functions?srsltid=AfmBOoryRshW07cbG8-opY8qVkyPPeIMwXUEllGcuULyh1EGIhjllLRH
+
 https://haskell.tailorfontela.com.br/higher-order-functions
+
 https://pythonacademy.com.br/blog/funcoes-lambda-no-python
+
 https://wiki.haskell.org/Anonymous_function
